@@ -54,7 +54,7 @@ function resetGame() {
 
     const allPs = document.querySelectorAll('.resultParas p');
     for (let i = 0; i < allPs.length; i++) {
-        allPs[i].textContent = '';
+        allPs[i].textContent = '';  
     }
 
     resetButton.parentNode.removeChild(resetButton);
